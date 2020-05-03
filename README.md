@@ -44,3 +44,6 @@ elastic-job集成说明
             eventTraceRdbDataSource: dataSource
             listeners: com.zcoox.mmalljob.order.job.listener.OrderListener,com.zcoox.mmalljob.order.job.listener.OrderTwoListener
             distributedListeners: com.zcoox.mmalljob.order.job.listener.OrderDistributeListener,com.zcoox.mmalljob.order.job.listener.OrderDistributeTwoListener
+
+## 使用例子
+	https://github.com/goofyww/scheduler-study/tree/master/elastic-job/spring-boot-elastic-job-demo
